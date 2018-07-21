@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        #warn .sub p{
+            color:red;
+        }
+        div div #success p{
+            color:blue;
+        }
+        div.con div.sub div.sup p{
+            color:green;
+        }
+
+        .nav{
+            color:red;
+        }
+        span{
+            color:green;
+        }
+        .nav ul li{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="warn" class="con">
+        <div id="error" class="sub">
+            <div id="success" class="sup">
+                <p>我是什么颜色</p>
+            </div>
+        </div>      
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li><span>我是什么颜色</span></li>
+            <li><span>我是什么颜色</span></li>
+            <li><span>我是什么颜色</span></li>
+        </ul>
+    </div>
+</body>
+</html>
